@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+  padding: 70px;
+  padding-top: 30px;
+  background: linear-gradient(280deg, rgba(255, 176, 91, 0.7539390756) 0%, rgba(255, 206, 146, 0.868785014) 8%, rgba(241, 255, 104, 0.8827906162) 76%);
+}
+
+.intro {
+  background: white;
+  padding: 5px 10px 10px 20px;
+  border: 1px solid black;
+}
+.intro h1 {
+  color: #E99497;
+  background: #DDF796;
+  width: 21%;
+  font-size: 60px;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.main {
+  padding: 5px 10px 10px 20px;
+  padding-left: 30%;
+  position: absolute;
+  right: 70px;
+}
+.main .explanation {
+  background: white;
+  padding: 5px 10px 10px 20px;
+  margin-top: 30px;
+  border-radius: 1rem;
+}
+.main .participation {
+  background: #DBF6E9;
+  padding: 5px 10px 10px 20px;
+  margin-top: 30px;
+  border-radius: 1rem;
+}
+.main .benefits {
+  background: #9DDFD3;
+  padding: 5px 10px 10px 20px;
+  margin-top: 30px;
+  border-radius: 1rem;
+}
+.main .requirements {
+  background: #8AC4D0;
+  padding: 5px 10px 10px 20px;
+  margin-top: 30px;
+}
+.main footer {
+  text-align: center;
+  background: #8AC4D0;
+  padding: 5px 10px 10px 20px;
+}
+
+.sidebar {
+  background: #EADEA6;
+  width: 20%;
+  padding: 5px 10px 10px 20px;
+  border-radius: 1rem;
+  position: absolute;
+  margin-top: 35px;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=style.css.map */
