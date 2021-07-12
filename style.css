@@ -6,7 +6,7 @@ body {
 }
 
 .intro {
-  background: white;
+  background: url("istockphoto-1141520366-1024x1024.jpg");
   padding: 5px 10px 10px 20px;
   border: 1px solid black;
 }
@@ -17,6 +17,26 @@ body {
   font-size: 60px;
   border-radius: 1rem;
   text-align: center;
+}
+.intro h2 {
+  background: white;
+  width: 17%;
+  font-size: 30px;
+  padding: 5px 10px 10px 20px;
+  border-radius: 1rem;
+}
+.intro .summary {
+  background: white;
+  width: 70%;
+  padding: 5px 10px 10px 20px;
+  border-radius: 1rem;
+}
+.intro .preamble {
+  background: white;
+  width: 70%;
+  padding: 5px 10px 10px 20px;
+  margin-top: 20px;
+  border-radius: 1rem;
 }
 
 .main {
@@ -62,6 +82,9 @@ body {
   position: absolute;
   margin-top: 35px;
   border: 1px solid black;
+}
+.sidebar li {
+  padding-top: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

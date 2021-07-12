@@ -13,7 +13,7 @@ body{
     background: $primary-color;
 }
 .intro{
-    background: $bg-box;
+    background: url("istockphoto-1141520366-1024x1024.jpg");
     padding: $pd-box;
     border: $border-line;
     h1{
@@ -23,6 +23,26 @@ body{
         font-size: 60px;
         border-radius: $border-radius;
         text-align: center;
+    }
+    h2{
+        background: $bg-box;
+        width: 17%;
+        font-size: 30px;
+        padding: $pd-box;
+        border-radius: $border-radius;
+    }
+    .summary{
+        background: $bg-box;
+        width: 70%;
+        padding: $pd-box;
+        border-radius: $border-radius;
+    }
+    .preamble{
+        background: $bg-box;
+        width: 70%;
+        padding: $pd-box;
+        margin-top: 20px;
+        border-radius: $border-radius;
     }
 }
 .main{
@@ -67,4 +87,7 @@ body{
     position: absolute;
     margin-top: 35px;
     border: $border-line;
+    li{
+        padding-top: 15px;
+    }
 }
